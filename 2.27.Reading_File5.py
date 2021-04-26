@@ -34,3 +34,14 @@ with open(r"#.2.Dummy_File2.html",'r') as x:
 
 x.close()
 
+print()
+with open(r"#.2.Dummy_File2.html",'r') as x:
+
+    y = (x.readlines())
+
+    for z in y[:5]:
+        print(z.strip())#strip takes out one character from both sides of a given string
+
+x.close()
+
+#we can write any character inside strip(), like a, b, c etc.
