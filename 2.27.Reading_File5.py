@@ -24,3 +24,13 @@ x.close()
 # 44 <= x >= 65 = 1st, 2nd, 3rd line #21+0+21+1+21+1
 # 66 <= x >= 87 = 1st, 2nd, 3rd, 4th line #21+0+21+1+21+1+21+1
 # 88 <= x > infinity = 1st, 2nd, 3rd, 4th, 5th line #21+0+21+1+21+1+21+1+21+1
+print()
+with open(r"#.2.Dummy_File2.html",'r') as x:
+
+    y = (x.readlines())
+
+    for z in y[:5]:
+        print(z)
+
+x.close()
+
